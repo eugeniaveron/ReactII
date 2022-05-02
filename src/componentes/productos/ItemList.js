@@ -23,8 +23,8 @@ const getProductos = () => {
     }
 
   return (
-    <div>
-        {productos.map( p => <Item key= {p.id} productos={p}/>)}
+    <div className='grid grid-cols-4 gap-4 m-3'>
+        {productos.map( p => <Item key= {p.id} producto={p}/>)}
     </div>
     
   )

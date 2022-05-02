@@ -8,7 +8,7 @@ const NavBar = () =>{
             </div>
 
             <nav>
-                <ul className="md:flex gap-8 p-4">
+                <ul className="md:flex gap-8 p-4 font-medium">
                     <li>INICIO</li>
                     <li>PRODUCTOS</li>
                     <li>CONTACTO</li>
